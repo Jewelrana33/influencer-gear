@@ -53,6 +53,13 @@ body{
     font-weight: 600;
     margin: 25px 0;
 }
+.heroarea .image{
+    width: 475px;
+    height: 475px;
+    background-image: url('images/Circle design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .btn{
     width: 160px;
     padding: 10px 15px;
@@ -60,4 +67,16 @@ body{
     border-radius: 41px;
     background-color: #e02c6d;
     color: #FFF;
+}
+
+/* sponsor logos styles start  */
+
+.sponsor-logos{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    border: 1px solid #c0ccda;
 }
