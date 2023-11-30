@@ -12,10 +12,15 @@
 body{
     background-color: #FFF;
     font-family: 'Poppins', sans-serif;
-    padding: 85px 120px;
     
 }
+main{
+    padding: 85px 120px;  
+}
 /* header styles start  */
+header{
+    padding: 85px 120px; 
+}
 .navigation{
     color: #3a3a3a;
     display: flex;
@@ -60,7 +65,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.btn{
+.heroarea .btn{
     width: 160px;
     padding: 10px 15px;
     border: none;
@@ -78,5 +83,98 @@ body{
     align-items: center;
 }
 hr{
-    border: 1px solid #c0ccda;
+    height: 3px;
+    border: none;
+    background: linear-gradient(to right, white, gray, white);
+}
+
+/* popular collection starts */
+.popular-collection{
+    margin-top: 130px;
+}
+.popular-collection .btn{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-top: 50px;
+    width: 160px;
+    padding: 10px 15px;
+    color: #e02c6d;
+    position: absolute;
+    right: 120px;
+}
+.section-heading{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 15px;
+}
+
+.item{
+    color: #3a3a3a;
+    padding: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15); 
+}
+.item .item-title{
+    margin: 6px 0;
+    font-size: 28px;   
+}
+.item .price{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* featured products starts */
+
+.featured-products{
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+.featured-products h3{
+    color: #0A0826;
+    font-size: 38px;
+    margin: 10px 0;
+}
+.featured-products p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+.featured-products .btn{
+    width: 160px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #e02c6d;
+    color: #FFF;
+}
+
+/* footer section starts */
+
+footer{
+    width: 100%;
+    height: 240px;
+    margin-top: 40px;
+    background-color: #0A0826;
+    color: #FFF;
+    text-align: center;
+}
+.footer-title{
+    padding-top: 50px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+footer p{
+    font-size: 14px;
+    color: grey;
+}
+footer .icon{
+   margin-top: 15px;
 }
